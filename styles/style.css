@@ -1,0 +1,58 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* header styles */
+.nav-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+.menu-list {
+    display: flex;
+    align-items: center;
+}
+.menu-list li {
+    list-style: none;
+}
+
+/* album styles */
+.album-area {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.album-text h2{
+    font-weight: 700;
+    font-size: 38px;
+    color: #0A0826;
+    padding-bottom: 10px;
+}
+.album-text p {
+    font-weight: 700;
+    font-size: 16px;
+    color: #848199;
+    padding-bottom: 20px;
+}
+.album-area button {
+    font-weight: 700;
+    font-size: 16px;
+}
+.add {
+    position: absolute;
+    right: 0;
+    top: 62rem;
+}
+.add > strong {
+    font-weight: 500;
+    font-size: 14px;
+    color: #505050;
+}
+.add-custom {
+    border-radius: 0;
+    border-left: 3px solid #3F87F5;
+}
